@@ -43,6 +43,8 @@ def csvdata():
     else:
         flist = [f.replace('./data/', '').replace('.csv', '')
                  for f in glob.glob('./data/*.csv')]
+        print(flist)
+        # flist = ["Berkeley"]
         return json.dumps(flist)
 
 
