@@ -1,0 +1,23 @@
+pip install flask-script
+pip install pandas
+
+##
+git config --global url."https://".insteadOf git://
+
+npm install -g babel-cli
+## obsolete
+## npm install -g react-tools
+
+npm install babel-preset-es2015 --save
+npm install babel-preset-react --save
+
+babel --presets es2015,react --watch js/ --out-dir lib/
+
+npm install requirejs --save
+node node_modules/requirejs/bin/r.js -o build.js
+
+python package/main.py
+
+http://localhost:5000
+
+
