@@ -21,6 +21,7 @@
     "select2": "~4.0.1",
     "datatables": "~1.10.10",
     "papaparse": "~4.1.2",
-    "echarts": "~2.2.7"
+    "echarts": "~2.2.7",
+    "three.js": "threejs#*"
   }
 }

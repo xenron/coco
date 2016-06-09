@@ -41,7 +41,9 @@ def csvdata():
         return json.dumps({error:
                            'You are not allowed to upload such a file.'})
     else:
-        flist = [f.replace('./data/', '').replace('.csv', '')
+        # flist = [f.replace('./data/', '').replace('.csv', '')
+        #          for f in glob.glob('./data/*.csv')]
+        flist = [f.replace(u'./data\\', '').replace('.csv', '')
                  for f in glob.glob('./data/*.csv')]
         print(flist)
         # flist = ["Berkeley"]
