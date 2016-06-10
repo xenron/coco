@@ -56,10 +56,12 @@ docs/_build/
 # PyBuilder
 target/
 
-
 # bower
 package/static/bower_components/
 static/bower_components/
 
 # pycharm
 .idea/
+
+# npm
+node_modules
